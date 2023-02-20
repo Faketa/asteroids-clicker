@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a079cee82d3469bb583718eab7fde9d, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  Asteroid:
+    Spawner:
+      StartingSpawns: 5
+      MaxSpawns: 10
+    General:
+      MinLifetimeSeconds: 1
+      MaxLifetimeSeconds: 3
+      HitPoints: 4
+      MinScale: 1.5
+      MaxScale: 2.5
+      MinMass: 3
+      MaxMass: 7
+      MinSpeed: 1
+      MaxSpeed: 3
+      TagName: asteroid
+      HitColors:
+      - {r: 0, g: 0.027116776, b: 1, a: 0}
+      - {r: 0, g: 1, b: 0.14586067, a: 0}
+      - {r: 1, g: 0, b: 0, a: 0}
+      - {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0}
+  AudioHandler:
+    ExplosionSound: {fileID: 8300000, guid: 2edce5ea3ab5a444bacbb39a079c843e, type: 3}
+    HitSound: {fileID: 8300000, guid: 1ec802cbf88de014f8ba898cd094dbba, type: 3}
+  GameInstaller:
+    GameTitleText: Asteroid Clicker
+    PointsText: 'Punkty: '
+    WinText: Wygrana!
+    RepeatText: "POWT\xD3RZ"
+    StartText: ROZPOCZNIJ
+    SoundOnText: Muzyka ON
+    SoundOffText: Muzyka OFF
+    PlaySound: 0
+    WinScore: 15
+    AsteroidPrefab: {fileID: 100000, guid: 94b274d169275724c9eb7b7d390de3f5, type: 3}
+    ExplosionPrefab: {fileID: 100002, guid: 440c9a48679300d4581ebfac8313bdbd, type: 3}
