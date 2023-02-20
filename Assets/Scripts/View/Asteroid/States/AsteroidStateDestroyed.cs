@@ -30,7 +30,7 @@ namespace CezaryTomczak.Asteroids.View.Asteroid.States
 
         public override void Dispose()
         {
-            GameObject.Destroy(_explosion);
+            //GameObject.Destroy(_explosion);
         }
         
         public override void Update() { }
