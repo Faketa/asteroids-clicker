@@ -1,5 +1,5 @@
 # asteroids-clicker
-Asteroids Clicker game on Unity
+Dependency injection pattern sample
 
 Unity version: 2022.1.23f1
 
